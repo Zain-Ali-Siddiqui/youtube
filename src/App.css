@@ -1,0 +1,434 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.player {
+  margin-left: 11%;
+  margin-top: -7%;
+  width: 700px !important;
+  height: 400px !important;
+}
+
+input {
+  margin-left: 10%;
+  margin-top: 2%;
+  height: 35px !important;
+  border: 1px solid silver;
+  width: 42%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: silver;
+}
+
+.div_icon {
+  height: 34.9px;
+  background-color: #f0f0f0;
+  margin-top: 2%;
+  margin-left: 1%;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.sidenav {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.sidenav svg {
+  height: 34.9px;
+  margin-left: 20%;
+}
+
+.img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.log {
+  width: 10%;
+  margin-top: 0%;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  display: flex;
+  margin-right: 82% !important;
+}
+
+.side_nav {
+  margin-top: 2%;
+  margin-left: 13%;
+}
+
+.side_nav svg {
+  height: 34.9px;
+  margin-left: 25%;
+}
+
+.yt {
+  height: 34.9px;
+  margin-left: 25%;
+}
+
+.css-1x2jw2k-MuiPaper-root-MuiAppBar-root {
+  background-color: white !important;
+  box-shadow: none !important;
+}
+
+.css-1k455el {
+  display: flex;
+}
+
+#img {
+  border-radius: 50%;
+  height: 33px;
+  width: 33px;
+  margin-bottom: 2%;
+  margin-left: 25%;
+}
+
+::-webkit-scrollbar {
+  overflow: hidden;
+}
+
+.icon_div {
+  background-color: #f0f0f0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-left-color: #FFFFFF !important;
+  border: 1px solid silver;
+  height: 34.9px;
+  width: 60px;
+  text-align: center;
+  padding: 3.5px;
+  margin-top: 2%;
+}
+
+.search {
+  color: black
+}
+
+h3 {
+  margin-left: 10.5%;
+}
+
+.m {
+  margin-left: -4px;
+  margin-top: 3px;
+}
+
+.main {
+  width: 100px;
+  margin-top: -96px;
+  margin-left: -20px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+.div {
+  display: inline-flex;
+}
+
+svg {
+  width: 25px;
+  height: auto;
+}
+
+
+.logo {
+  width: 10%;
+  margin-top: 0%;
+}
+
+.css-ciy9n4-MuiPaper-root-MuiAppBar-root {
+  background-color: #FFFFFF !important;
+  height: 10%;
+}
+
+.MuiButtonBase-root {
+  color: black !important;
+  font-weight: 300 !important;
+}
+
+.css-ciy9n4-MuiPaper-root-MuiAppBar-root {
+  box-shadow: none !important;
+}
+
+.inner_div {
+  display: flex;
+  margin-left: 10%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.inner_div p {
+  margin-left: -7%;
+  margin-top: 0%;
+  font-weight: 600;
+}
+
+
+.para {
+  font-weight: 200;
+  font-size: 12px;
+  margin-left: 18.3%;
+  margin-top: -3%;
+}
+
+.inner_div button {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  width: 16%;
+  border-radius: 40px;
+  margin-right: 45px;
+  height: 39px;
+  font-size: 15px;
+}
+
+.likes_div {
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: rgb(233, 227, 227);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.share_div {
+  height: 40px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: rgb(233, 227, 227);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding-top: 8px;
+}
+
+.share_div:hover {
+  cursor: pointer;
+}
+
+.options {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(233, 227, 227);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 7px;
+}
+
+.options:hover {
+  cursor: pointer;
+}
+
+.new_div {
+  margin-bottom: 5px;
+  border-right: 1px solid silver;
+}
+
+.likes_and_share_div {
+  display: flex;
+  margin-right: -13px;
+}
+
+.inner_div2 {
+  background-color: #f0f0f0;
+  margin-left: 10%;
+  width: 102.7%;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.inner_div2 .p {
+  padding-top: 10px;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+
+.inner_div2 p {
+  font-family: serif;
+  font-size: 15px;
+  margin-left: 9px;
+}
+
+.comments {
+  margin-top: 3%;
+  display: flex;
+  margin-left: 11%;
+}
+
+.comments svg {
+  margin-left: 5%;
+}
+
+.comments_div {
+  display: flex;
+}
+
+.comment_div input {
+  border: none;
+  border-radius: 0%;
+  margin-left: 2%;
+  width: 100%;
+  border-bottom: 2px solid silver;
+}
+
+.comment_div {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+
+#imgs {
+  border-radius: 50%;
+  margin-top: 2%;
+}
+
+.main_div {
+  display: flex;
+}
+
+.div_1 ul {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-left: -31px;
+}
+
+.div_1 {
+  margin-top: -5%;
+  margin-left: 7%;
+  height: 59px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-y: hidden;
+  width: 55%;
+}
+
+.dis {
+  display: flex !important;
+  margin-left: 38%;
+  margin-bottom: 10px;
+}
+
+.dis h3 {
+  font-size: 15px;
+  width: 60%;
+  font-weight: 500;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  margin-left: 17px;
+}
+
+.dis p {
+  font-size: 11px;
+  margin-left: 17px;
+  margin-top: -9px;
+}
+
+.text_div1 {
+  margin-top: -17px;
+}
+
+.playe {
+  margin-bottom: -10px;
+  border-radius: 10px;
+  margin-left: -380px;
+  width: 168px !important;
+  height: 90px !important;
+}
+
+.div_1 ul li {
+  padding: 0px 15px;
+  margin-left: 5px;
+  list-style: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid silver;
+  background-color: #f0f0f0;
+}
+
+.main_comment_div {
+  margin-left: 10.3%;
+  margin-top: 5%;
+}
+
+.name {
+  margin-left: 3%;
+  margin-top: 12px;
+  font-weight: 550;
+  font-size: 15px;
+}
+
+.hour {
+  font-size: 12px;
+  margin-top: 14.3px;
+  margin-left: 5px;
+}
+
+.comen {
+  margin-left: 9%;
+  font-size: 14px;
+  margin-top: -13px;
+}
+
+.comment_likes {
+  margin-left: 8%;
+}
+
+.comment_likes .like_icon {
+  margin-right: 7px;
+  margin-top: -4px;
+}
+
+.comment_likes span {
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.comment_likes .x {
+  margin-left: 20px;
+  margin-top: -4px;
+}
+
+.comment_likes div {
+  margin-left: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:600px) {
+  .player {
+    width: 350px !important;
+    height: 300px !important;
+  }
+
+  h3 {
+    margin-left: 7px;
+  }
+}
